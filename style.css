@@ -1,0 +1,28 @@
+body
+{
+
+}
+
+.my-container
+{
+    width: 100vw;
+}
+
+.options-menu
+{
+    background-color: rgb(60, 60, 155);
+    height: 100vh;
+    
+}
+
+.email-list
+{
+    background-color: rgb(100, 100, 255);
+    height: 100vh;
+}
+
+.email-preview
+{
+    background-color: rgb(200, 200, 255);
+    height: 100vh;
+}
