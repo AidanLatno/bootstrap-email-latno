@@ -5,11 +5,10 @@
     float: left;
 }
 
-#name
+#username
 {
-    text-align: center;
-    padding: 10px;
-    font-size: 2vw;
+    margin-top: 15px;
+    font-size: 1.5vw;
     color:white;
 }
 
@@ -18,9 +17,19 @@
     margin: 10px;
 }
 
+
+.user-info-box
+{
+    display: flex;
+    align-items: center;
+}
+
 .compose-button
 {
     display: flex;
+    margin: 20px;
+
+    justify-content: center;
     
 }
 
@@ -33,10 +42,9 @@
 
 .options-panel
 {
-    display: flex;
-    justify-content: space-between;
     background-color: rgb(60, 60, 155);
     height: 100vh;
+    
 }
 
 .options-list
@@ -44,8 +52,6 @@
     display: flex;
     background-color: rgb(60, 60, 155);
     flex-direction: column;
-    align-self: center;
-    /* align-items: center; */
 }
 
 .option
@@ -58,7 +64,7 @@
     padding: 10px;
     text-align: center;
     font-size: medium;
-    border-radius: 10%;
+    border-radius: 15px;
 }
 
 .option:hover
@@ -92,7 +98,7 @@
     margin: 20px;
     padding: 10px;
     font-size: medium;
-    border-radius: 5%; 
+    border-radius: 10px; 
 
 }
 
